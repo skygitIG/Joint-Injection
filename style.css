@@ -1,5 +1,392 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+.container {
+    max-width: 1760px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+header {
+    background-color: #1F2636;
+}
+
+.head {
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.p-btn {
+    border-radius: 4px;
+    background: #C07858;
+    padding: 16px 24px;
+    border: 1px solid transparent;
+}
+
+.p-btn a {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* banner-section */
+
+.main-banner {
+    /* min-height: 825px; */
+    background: url(images/closeup-young-man-with-knee-injury\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 65px 0 135px;
+}
+
+.banner-section {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.banner-content h1 {
+    max-width: 800px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px;
+}
+
+.banner-content p {
+    max-width: 686px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 35px 0 50px;
+}
+
+/* Contact Form */
+.contact-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #2D0239;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #2d1b2e;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #e0d0d2;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: inherit;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #4a2c4e;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.p-btn {
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #FFF;
+
+    /* width: 100%; */
+}
+
+.p-btn:hover {
+    background-color: #fff;
+    color: #C07858 !important;
+    border: 1px solid #C07858;
+    transition: background-color 0.3s;
+}
+
+.p-btn:hover a {
+    color: #C07858 !important;
+    /* border: 1px solid #C07858; */
+    transition: background-color 0.3s;
+}
+
+/* approach-section */
+.approach-section {
+    margin: 100px 0;
+}
+
+.approach-cards {
+    margin-bottom: 80px;
+    margin-top: 10px;
+}
+
+.card-a {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.card-a .approach-card-content {
+    width: 100%;
+    padding-left: 80px;
+}
+
+.card-b .approach-card-content {
+    width: 100%;
+}
+
+.card-b {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    align-items: center;
+}
+
+.acc-head {
+    color: #1F2636;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68px;
+}
+
+.acc-paragraph {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    margin: 23px 0 48px;
+    max-width: 459px;
+    padding-left: 17px;
+}
+
+/* services-section */
+
+.services-section {
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-section h2 {
+    color: #1F2636;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.services-section .line {
+    margin: 10px 0 36px;
+}
+
+.services {
+    margin: 40px auto;
+}
+
+.services .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.services .card {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 24px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    border-radius: 6px;
+    border: 1px solid #C07858;
+}
+
+.services .card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transform: translateY(-3px);
+}
+
+
+.services .text h3 {
+    color: #222;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 6px;
+}
+
+.services .text p {
+    color: #222;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+/* consultation-section */
+    .consultation-section{
+        display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 100px 0;
+    }
+
+    .consultation-content{
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+    }
+
+    .consultation-section h2{
+        color: #1F2636;
+    font-family: 'Inter', sans-serif;
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+max-width: 600px;
+    }
+    .consultation-section p{
+        color: #222;
+    font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+max-width: 600px;
+    }
+    .consultation-section a{
+        color: #C07858;
+    font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration-line: underline;
+    }
+
+    /* footer */
+
+    footer {
+
+    background: #1F2636;
+    padding: 90px 40px 80px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    text-align: center;
+    /* max-width: 1444px; */
+    /* margin: 0 auto; */
+}
+
+.footer-info {
+    margin: 80px 0 30px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    font-family: proxima-nova, sans-serif;
+}
+
+.footer-btn {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-decoration-line: underline;
+    font-family: proxima-nova, sans-serif;
+}
+
+.footer-btn a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 2px 0 0;
+}
+
+.footer-bottom {
+    background-color: #C07858;
+    display: flex;
+    padding: 25px 70px 30px;
+    justify-content: space-between;
+}
+
+.footer-rights {
+    color: #ffffff;
+    font-family: "Golos Text", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.social-icons {
+    gap: 14px;
+    display: flex;
+}
+
+
+@media (max-width: 768px) {
+    .services .grid {
+        grid-template-columns: 1fr;
+    }
 }
