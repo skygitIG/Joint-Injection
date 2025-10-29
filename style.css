@@ -385,7 +385,7 @@ text-decoration-line: underline;
 }
 
 .consultation-section iframe{
-    min-height: 390px;
+    min-height: 520px;
 }
 
 iframe{
@@ -583,6 +583,9 @@ iframe{
     .consultation-section {
     grid-template-columns: 100%;
     gap: 40px;
+}
+.consultation-section iframe {
+    min-height: 444px;
 }
 
 .footer-logo img{
