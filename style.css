@@ -140,7 +140,7 @@ header {
     cursor: pointer;
     transition: background-color 0.3s;
     color: #FFF;
-text-decoration: none;
+    text-decoration: none;
     font-family: 'Inter', sans-serif;
 }
 
@@ -280,48 +280,50 @@ text-decoration: none;
 }
 
 /* consultation-section */
-    .consultation-section{
-        display: grid;
+.consultation-section {
+    display: grid;
     grid-template-columns: 50% 50%;
     margin: 100px 0;
-    }
+}
 
-    .consultation-content{
-        display: flex;
+.consultation-content {
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 22px;
-    }
+}
 
-    .consultation-section h2{
-        color: #1F2636;
+.consultation-section h2 {
+    color: #1F2636;
     font-family: 'Inter', sans-serif;
-font-size: 32px;
-font-weight: 700;
-line-height: 48px;
-max-width: 600px;
-    }
-    .consultation-section p{
-        color: #222;
-    font-family: 'Inter', sans-serif;
-font-size: 24px;
-font-weight: 400;
-line-height: 36px;
-max-width: 600px;
-    }
-    .consultation-section a{
-        color: #C07858;
-    font-family: 'Inter', sans-serif;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-text-decoration-line: underline;
-    }
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    max-width: 600px;
+}
 
-    /* footer */
+.consultation-section p {
+    color: #222;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    max-width: 600px;
+}
 
-    footer {
+.consultation-section a {
+    color: #C07858;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+/* footer */
+
+footer {
 
     background: #1F2636;
     padding: 90px 40px 80px;
@@ -384,178 +386,214 @@ text-decoration-line: underline;
     display: flex;
 }
 
-.consultation-section iframe{
+.consultation-section iframe {
     min-height: 520px;
 }
 
-iframe{
+iframe {
     border: 1px solid #C07858;
 }
 
-@media (max-width: 1441px){
+@media (max-width: 1441px) {
     .head {
-    padding: 20px 0;
+        padding: 20px 0;
     }
+
     .p-btn a {
-    font-size: 18px;
-    font-weight: 500;
-}
-.approach-card-img img{
-    width: 650px;
-}
-.card-a .approach-card-content {
-    padding-left: 40px;
-}
-.acc-paragraph {
-    max-width: 100%;
-    padding-left: 22px;
-}
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .approach-card-img img {
+        width: 650px;
+    }
+
+    .card-a .approach-card-content {
+        padding-left: 40px;
+    }
+
+    .acc-paragraph {
+        max-width: 100%;
+        padding-left: 22px;
+    }
 }
 
 @media (max-width: 1200px) {
     .main-banner {
-    padding: 55px 0 70px;
-}
+        padding: 55px 0 70px;
+    }
+
     .banner-section {
-    grid-template-columns: 53% 43%;
-    gap: 4%;
-}
+        grid-template-columns: 53% 43%;
+        gap: 4%;
+    }
+
     .banner-content h1 {
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 51px;
-}
-.banner-content p {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    margin: 30px 0 40px;
-}
-.approach-card-img img {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 51px;
+    }
+
+    .banner-content p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        margin: 30px 0 40px;
+    }
+
+    .approach-card-img img {
         width: 500px;
     }
-    .card-a, .card-b {
-    gap: 40px;
-}
-.acc-head {
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 50px;
-}
-.acc-paragraph {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    margin: 18px 0 40px;
-}
-.p-btn {
-    padding: 12px 20px;
-}
+
+    .card-a,
+    .card-b {
+        gap: 40px;
+    }
+
+    .acc-head {
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    .acc-paragraph {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        margin: 18px 0 40px;
+    }
+
+    .p-btn {
+        padding: 12px 20px;
+    }
 }
 
 @media (max-width: 1024px) {
-        .card-a .approach-card-content {
+    .card-a .approach-card-content {
         padding-left: 0;
     }
+
     .services .text h3 {
-    font-size: 20px;
-    line-height: 28px;
-}
+        font-size: 20px;
+        line-height: 28px;
+    }
+
     .services .text p {
-    font-size: 17px;
-    line-height: 25px;
-}
-.services .card img{
-    width: 80px;
-}
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .services .card img {
+        width: 80px;
+    }
 }
 
 @media (max-width: 768px) {
     .container {
-    padding: 0 20px;
-}
-.banner-section {
+        padding: 0 20px;
+    }
+
+    .banner-section {
         grid-template-columns: 54% 44%;
         gap: 2%;
     }
+
     .banner-content h1 {
         font-size: 30px;
         font-weight: 600;
         line-height: 38px;
     }
-        .banner-content p {
+
+    .banner-content p {
         font-size: 16px;
         font-weight: 400;
         line-height: 22px;
         margin: 18px 0 26px;
     }
-        .p-btn a {
+
+    .p-btn a {
         font-size: 12px;
         font-weight: 400;
     }
+
     .approach-card-img img {
         width: 300px;
     }
-        .acc-head {
+
+    .acc-head {
         font-size: 24px;
         font-weight: 600;
         line-height: 34px;
     }
-        .acc-paragraph {
+
+    .acc-paragraph {
         font-size: 14px;
         font-weight: 400;
         line-height: 20px;
         margin: 10px 0 24px;
     }
-        .p-btn {
+
+    .p-btn {
         padding: 8px 15px;
         font-size: 12px;
     }
+
     .services .grid {
         grid-template-columns: 1fr 1fr;
     }
+
     .services .card {
-    gap: 20px;
-    padding: 13px;
-}
-.services .card img {
+        gap: 20px;
+        padding: 13px;
+    }
+
+    .services .card img {
         width: 60px;
     }
+
     .services .text h3 {
         font-size: 18px;
         line-height: 22px;
     }
+
     .services .text p {
         font-size: 12px;
         line-height: 17px;
     }
+
     .services-section h2 {
-    font-size: 28px;
-}
-.services-section .line {
-    margin: 10px 0 25px;
-}
-.consultation-section h2 {
-    font-size: 28px;
-    line-height: 36px;
-}
-.consultation-section p {
-    font-size: 16px;
-    line-height: 23px;
-}
-.consultation-section a {
-    font-size: 14px;
-}
+        font-size: 28px;
+    }
+
+    .services-section .line {
+        margin: 10px 0 25px;
+    }
+
+    .consultation-section h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .consultation-section p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .consultation-section a {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 480px) {
-    .head img{
+    .head img {
         width: 150px;
     }
-        .banner-section {
+
+    .banner-section {
         grid-template-columns: 100%;
         gap: 3%;
     }
+
     .card-a {
         display: flex;
         flex-direction: column;
@@ -566,53 +604,64 @@ iframe{
         flex-direction: column;
         gap: 10px;
     }
+
     .approach-cards {
-    margin-bottom: 40px;
-    margin-top: 10px;
-}
-.approach-card-img img {
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+
+    .approach-card-img img {
         width: 100%;
     }
+
     .services .grid {
         grid-template-columns: 1fr;
         gap: 15px;
     }
+
     .services .card {
         padding: 25px 20px;
     }
-    .consultation-section {
-    grid-template-columns: 100%;
-    gap: 40px;
-}
-.consultation-section iframe {
-    min-height: 444px;
-}
 
-.footer-logo img{
-    width: 200px;
-}
-footer {
-    padding: 50px 20px;
-}
-.footer-info {
-    margin: 50px 0 30px;
-    font-size: 12px;
-    line-height: 18px;
-}
-.footer-bottom {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    align-items: center;
-    gap: 10px;
-}
-.footer-btn {
-    font-size: 11px;
-    line-height: 16px;
-}
-.footer-rights {
-    font-size: 10px;
-    line-height: 10px;
-}
+    .consultation-section {
+        grid-template-columns: 100%;
+        gap: 40px;
+    }
+
+    .consultation-section iframe {
+        min-height: 444px;
+    }
+
+    .footer-logo img {
+        width: 200px;
+    }
+
+    footer {
+        padding: 50px 20px;
+    }
+
+    .footer-info {
+        margin: 50px 0 30px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .footer-btn {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .footer-rights {
+        font-size: 10px;
+        line-height: 10px;
+    }
 
 }
