@@ -665,3 +665,24 @@ iframe {
     }
 
 }
+
+
+/* Thankyou page */
+
+
+.text p {
+    color: #222;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.thank-you-btn {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    /* margin-top: 30px; */
+}
